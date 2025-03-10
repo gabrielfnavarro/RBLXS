@@ -1,15 +1,1 @@
-_G.Farm = true
-
-task.spawn(function()
-    
-
-    while _G.Farm do
-        local args = {
-            [1] = "Huge"
-        }
-
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CollectFuel"):FireServer(unpack(args))
-
-        task.wait(0)
-    end
-end)
+_G.Farm=true;task.spawn(function() while _G.Farm do local v0=0 -0 ;local v1;local v2;while true do if (v0==(927 -(214 + 713))) then v1=0 + 0 ;v2=nil;v0=1;end if (v0==(1 + 0)) then while true do if (v1==1) then task.wait(0);break;end if (v1==0) then local v3=877 -(282 + 595) ;while true do if ((1638 -(1523 + 114))==v3) then v1=1 + 0 ;break;end if (v3==(0 -0)) then v2={[1066 -(68 + 997) ]="Huge"};game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CollectFuel"):FireServer(unpack(v2));v3=1271 -(226 + 1044) ;end end end end break;end end end end);
